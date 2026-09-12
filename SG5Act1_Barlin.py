@@ -1,5 +1,5 @@
 
-# Defining the main class, attrubutes, and methods
+# Defining the main class, attributes, and methods
 class Hero:
   def __init__(self, name, health, attack):
     self.name = name
@@ -27,7 +27,7 @@ print(f"Arthur's Health: {arthur.health}")
 print(f"Morgana's Health: {morgana.health}")
 print()
 
-# Check if anyone is anyone is at full health
+# Check if anyone is at full health
 if arthur.health == 100:
   print("Arthur is at full health!")
 if morgana.health == 100:
